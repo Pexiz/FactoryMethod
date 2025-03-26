@@ -1,6 +1,8 @@
+package abstractFactory;
+
 public class Customer {
-    private String gradeRequest;
-    private boolean hasCompanyContract;
+    private final String gradeRequest;
+    private final boolean hasCompanyContract;
     
     public Customer(String gradeRequest, boolean hasCompanyContract) {
         this.gradeRequest = gradeRequest;

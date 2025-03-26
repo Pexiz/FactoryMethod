@@ -1,3 +1,5 @@
+package abstractFactory;
+
 public class Main {
     public static void main(String[] args) {
         Customer customerOne = new Customer("A", true);

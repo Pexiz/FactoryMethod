@@ -1,4 +1,6 @@
-public class RegularFactory implements AbstractFactory{
+package abstractFactory;
+
+public class RegularFactory implements AbstractFactory {
     @Override
     public Car createCar(String requestedGrade) {
         if (requestedGrade.equals("A")) {

@@ -1,3 +1,5 @@
+package abstractFactory;
+
 public class CompanyFactory implements AbstractFactory {
     @Override
     public Car createCar(String requestedGrade) {
